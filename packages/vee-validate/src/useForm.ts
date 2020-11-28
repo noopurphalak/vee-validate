@@ -327,6 +327,7 @@ export function useForm<TValues extends Record<string, any> = Record<string, any
     setFieldDirty,
     setDirty,
     resetForm,
+    meta,
   };
 
   const validate = async () => {
